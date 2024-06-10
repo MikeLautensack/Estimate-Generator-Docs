@@ -13,5 +13,8 @@
   "license": "ISC",
   "devDependencies": {
     "vitepress": "^1.2.3"
+  },
+  "dependencies": {
+    "postman-to-markdown": "^1.2.0"
   }
 }
