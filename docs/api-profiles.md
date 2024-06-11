@@ -1,11 +1,11 @@
-# 📁 Collection: Users
+# 📁 Collection: Profiles
 
-## End-point: Create User
+## End-point: Create Profile
 
 ### Method: POST
 
 > ```
-> http://localhost:3000/api/users/:id
+> http://localhost:3000/api/users/:id/profile
 > ```
 
 ### Headers
@@ -18,10 +18,10 @@
 
 ```json
 {
-  "name": "postmanuser",
-  "email": "postmanuser@email.com",
-  "password": "pass",
-  "role": "contractor"
+  "businessAddress": "123 example st",
+  "businessEmail": "exampleemail@email.com",
+  "businessName": "the best business ever LLC",
+  "businessPhone": "610-333-4444"
 }
 ```
 
@@ -29,26 +29,17 @@
 
 ```json
 {
-  "message": "User successfully created",
-  "user": {
-    "id": "92043050",
-    "name": "postmanuser",
-    "email": "postmanuser@email.com",
-    "password": "$2b$10$EfZ4UY8VrrmQtzKbsNDlcuW6XqPcadkoLC0pXmEVnFRqgrB6QXtJS",
-    "newUser": true,
-    "role": "contractor",
-    "emailVerified": null,
-    "createdAt": "2024-06-10T23:17:33.011Z",
-    "updatedAt": "2024-06-10T23:17:33.011Z"
+  "message": "Profile successfully created",
+  "profile": {
+    "id": 53548406,
+    "user_id": "36680340",
+    "businessAddress": "123 example st",
+    "businessEmail": "exampleemail@email.com",
+    "businessName": "the best business ever LLC",
+    "businessPhone": "610-333-4444",
+    "createdAt": "2024-06-11T01:36:32.989Z",
+    "updatedAt": "2024-06-11T01:36:32.989Z"
   }
-}
-```
-
-### Response: 409
-
-```json
-{
-  "error": "User already registered"
 }
 ```
 
@@ -56,12 +47,15 @@
 
 ```json
 {
-  "error": "Body data is missing fields",
-  "bodyData": {
-    "name": "contractor",
-    "password": "pass",
-    "role": "contractor"
-  }
+  "error": "Invalid id"
+}
+```
+
+### Response: 401
+
+```json
+{
+  "error": "No session"
 }
 ```
 
@@ -69,18 +63,18 @@
 
 ```json
 {
-  "error": "data must be a string or Buffer and salt must either be a salt string or a number of rounds"
+  "error": "null value in column \"business_name\" of relation \"profiles\" violates not-null constraint"
 }
 ```
 
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
 
-## End-point: Update User
+## End-point: Update Profile
 
 ### Method: PATCH
 
 > ```
-> http://localhost:3000/api/users/:id
+> http://localhost:3000/api/users/:id/profile
 > ```
 
 ### Headers
@@ -93,9 +87,10 @@
 
 ```json
 {
-  "name": "updatedpostmanuser",
-  "role": "contractor",
-  "newUser": 123
+  "businessAddress": "123 edited st",
+  "businessEmail": "edited@email.com",
+  "businessName": "Edited name",
+  "businessPhone": "610-987-6543"
 }
 ```
 
@@ -103,36 +98,14 @@
 
 ```json
 {
-  "message": "User successfully updated",
-  "user": [
-    {
-      "id": "92043050",
-      "name": "updatedpostmanuser",
-      "email": "postmanuser@email.com",
-      "password": "$2b$10$EfZ4UY8VrrmQtzKbsNDlcuW6XqPcadkoLC0pXmEVnFRqgrB6QXtJS",
-      "role": "contractor",
-      "newUser": false,
-      "emailVerified": null,
-      "createdAt": "2024-06-10T23:17:33.011Z",
-      "updatedAt": "2024-06-10T23:17:33.011Z"
-    }
-  ]
-}
-```
-
-### Response: 401
-
-```json
-{
-  "error": "No session"
-}
-```
-
-### Response: 500
-
-```json
-{
-  "error": "invalid input syntax for type boolean: \"123\""
+  "message": "Profile successfully updated",
+  "profile": {
+    "businessAddress": "123 edited st",
+    "businessEmail": "edited@email.com",
+    "businessName": "Edited name",
+    "businessPhone": "610-987-6543",
+    "updatedAt": "2024-06-11T02:06:40.488Z"
+  }
 }
 ```
 
@@ -144,14 +117,22 @@
 }
 ```
 
+### Response: 401
+
+```json
+{
+  "error": "No session"
+}
+```
+
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
 
-## End-point: Delete User
+## End-point: Delete Profile
 
 ### Method: DELETE
 
 > ```
-> http://localhost:3000/api/users/:id
+> http://localhost:3000/api/users/:id/profile
 > ```
 
 ### Headers
@@ -164,23 +145,7 @@
 
 ```json
 {
-  "message": "User successfully deleted"
-}
-```
-
-### Response: 404
-
-```json
-{
-  "error": "User not found"
-}
-```
-
-### Response: 401
-
-```json
-{
-  "error": "No session"
+  "message": "Profile successfully deleted"
 }
 ```
 
@@ -189,6 +154,14 @@
 ```json
 {
   "error": "Invalid id"
+}
+```
+
+### Response: 401
+
+```json
+{
+  "error": "No session"
 }
 ```
 
