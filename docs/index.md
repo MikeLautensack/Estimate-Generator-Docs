@@ -8,7 +8,8 @@ hero:
 name: "Estimate Generator Docs"
 text: "Documentation for Estimate Genertor app."
 tagline: My great project tagline
-actions: - theme: brand
+actions: - 
+theme: brand
 text: API
 link: /api-overview
 
