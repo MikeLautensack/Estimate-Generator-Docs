@@ -5,7 +5,7 @@
 ### Method: POST
 
 > ```
-> http://localhost:3000/api/users/:id/profile
+> http://localhost:3000/api/users/:user_id/profile
 > ```
 
 ### Headers
@@ -74,7 +74,7 @@
 ### Method: PATCH
 
 > ```
-> http://localhost:3000/api/users/:id/profile
+> http://localhost:3000/api/users/:user_id/profile
 > ```
 
 ### Headers
@@ -132,7 +132,7 @@
 ### Method: DELETE
 
 > ```
-> http://localhost:3000/api/users/:id/profile
+> http://localhost:3000/api/users/:user_id/profile
 > ```
 
 ### Headers

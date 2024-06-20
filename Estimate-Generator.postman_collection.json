@@ -29,7 +29,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/users/:id/profile",
+							"raw": "http://localhost:3000/api/users/:user_id/profile",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -38,13 +38,13 @@
 							"path": [
 								"api",
 								"users",
-								":id",
+								":user_id",
 								"profile"
 							],
 							"variable": [
 								{
-									"key": "id",
-									"value": "12345678"
+									"key": "user_id",
+									"value": ""
 								}
 							]
 						}
@@ -70,7 +70,7 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id/profile",
+									"raw": "http://localhost:3000/api/users/:user_id/profile",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -79,13 +79,13 @@
 									"path": [
 										"api",
 										"users",
-										":id",
+										":user_id",
 										"profile"
 									],
 									"variable": [
 										{
-											"key": "id",
-											"value": "36680340"
+											"key": "user_id",
+											"value": ""
 										}
 									]
 								}
@@ -142,7 +142,7 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id/profile",
+									"raw": "http://localhost:3000/api/users/:user_id/profile",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -151,13 +151,13 @@
 									"path": [
 										"api",
 										"users",
-										":id",
+										":user_id",
 										"profile"
 									],
 									"variable": [
 										{
-											"key": "id",
-											"value": "3668"
+											"key": "user_id",
+											"value": ""
 										}
 									]
 								}
@@ -215,7 +215,7 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id/profile",
+									"raw": "http://localhost:3000/api/users/:user_id/profile",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -224,13 +224,13 @@
 									"path": [
 										"api",
 										"users",
-										":id",
+										":user_id",
 										"profile"
 									],
 									"variable": [
 										{
-											"key": "id",
-											"value": "36680340"
+											"key": "user_id",
+											"value": ""
 										}
 									]
 								}
@@ -287,7 +287,7 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id/profile",
+									"raw": "http://localhost:3000/api/users/:user_id/profile",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -296,13 +296,13 @@
 									"path": [
 										"api",
 										"users",
-										":id",
+										":user_id",
 										"profile"
 									],
 									"variable": [
 										{
-											"key": "id",
-											"value": "36680340"
+											"key": "user_id",
+											"value": ""
 										}
 									]
 								}
@@ -361,7 +361,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/users/:id/profile",
+							"raw": "http://localhost:3000/api/users/:user_id/profile",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -370,13 +370,13 @@
 							"path": [
 								"api",
 								"users",
-								":id",
+								":user_id",
 								"profile"
 							],
 							"variable": [
 								{
-									"key": "id",
-									"value": "12345678"
+									"key": "user_id",
+									"value": ""
 								}
 							]
 						}
@@ -402,7 +402,7 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id/profile",
+									"raw": "http://localhost:3000/api/users/:user_id/profile",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -411,13 +411,13 @@
 									"path": [
 										"api",
 										"users",
-										":id",
+										":user_id",
 										"profile"
 									],
 									"variable": [
 										{
-											"key": "id",
-											"value": "36680340"
+											"key": "user_id",
+											"value": ""
 										}
 									]
 								}
@@ -469,7 +469,7 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id/profile",
+									"raw": "http://localhost:3000/api/users/:user_id/profile",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -478,13 +478,13 @@
 									"path": [
 										"api",
 										"users",
-										":id",
+										":user_id",
 										"profile"
 									],
 									"variable": [
 										{
-											"key": "id",
-											"value": "52263"
+											"key": "user_id",
+											"value": ""
 										}
 									]
 								}
@@ -542,7 +542,7 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id/profile",
+									"raw": "http://localhost:3000/api/users/:user_id/profile",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -551,13 +551,13 @@
 									"path": [
 										"api",
 										"users",
-										":id",
+										":user_id",
 										"profile"
 									],
 									"variable": [
 										{
-											"key": "id",
-											"value": "36680340"
+											"key": "user_id",
+											"value": ""
 										}
 									]
 								}
@@ -607,7 +607,7 @@
 							}
 						],
 						"url": {
-							"raw": "http://localhost:3000/api/users/:id/profile",
+							"raw": "http://localhost:3000/api/users/:user_id/profile",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -616,13 +616,13 @@
 							"path": [
 								"api",
 								"users",
-								":id",
+								":user_id",
 								"profile"
 							],
 							"variable": [
 								{
-									"key": "id",
-									"value": "12345678"
+									"key": "user_id",
+									"value": ""
 								}
 							]
 						}
@@ -639,7 +639,7 @@
 									}
 								],
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id/profile",
+									"raw": "http://localhost:3000/api/users/:user_id/profile",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -648,13 +648,13 @@
 									"path": [
 										"api",
 										"users",
-										":id",
+										":user_id",
 										"profile"
 									],
 									"variable": [
 										{
-											"key": "id",
-											"value": "36680340"
+											"key": "user_id",
+											"value": ""
 										}
 									]
 								}
@@ -697,7 +697,7 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id/profile",
+									"raw": "http://localhost:3000/api/users/:user_id/profile",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -706,13 +706,13 @@
 									"path": [
 										"api",
 										"users",
-										":id",
+										":user_id",
 										"profile"
 									],
 									"variable": [
 										{
-											"key": "id",
-											"value": "36680"
+											"key": "user_id",
+											"value": ""
 										}
 									]
 								}
@@ -761,7 +761,7 @@
 									}
 								],
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id/profile",
+									"raw": "http://localhost:3000/api/users/:user_id/profile",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -770,13 +770,13 @@
 									"path": [
 										"api",
 										"users",
-										":id",
+										":user_id",
 										"profile"
 									],
 									"variable": [
 										{
-											"key": "id",
-											"value": "36680340"
+											"key": "user_id",
+											"value": ""
 										}
 									]
 								}
@@ -827,12 +827,13 @@
 						"header": [
 							{
 								"key": "Cookie",
-								"value": "next-auth.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..-nMXmNbi-VqCLCR7.GQ2fO37sgqkit7jyhYIRAUvQDhB9RN4x-PLMnMesdl61SvTZvSwfwSCojNQtBxCwvxRGpZsyhmxS6BEe9eGPpMtAIOf0HgivkGtIV-byjhgJjyKTfcqUN2yKFsK8D5OAtSQhwHG6AbE6UyXNVlmSEN-K8_3RppV5txJrKSb416TFbQVCxwPHBiHej-TzMatl38q-Y7d_JGOiNS-r9-ZFA09zvHuSHYMvwWIN1E67gALcR8iMX7pV4Q.CXbiSe5WHTZDtXPzmMSPGw; Path=/; Expires=Wed, 10 Jul 2024 02:28:24 GMT; HttpOnly; SameSite=Lax"
+								"value": "next-auth.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..-nMXmNbi-VqCLCR7.GQ2fO37sgqkit7jyhYIRAUvQDhB9RN4x-PLMnMesdl61SvTZvSwfwSCojNQtBxCwvxRGpZsyhmxS6BEe9eGPpMtAIOf0HgivkGtIV-byjhgJjyKTfcqUN2yKFsK8D5OAtSQhwHG6AbE6UyXNVlmSEN-K8_3RppV5txJrKSb416TFbQVCxwPHBiHej-TzMatl38q-Y7d_JGOiNS-r9-ZFA09zvHuSHYMvwWIN1E67gALcR8iMX7pV4Q.CXbiSe5WHTZDtXPzmMSPGw; Path=/; Expires=Wed, 10 Jul 2024 02:28:24 GMT; HttpOnly; SameSite=Lax",
+								"disabled": true
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"postmanuser\",\r\n    \"email\": \"postmanuser@email.com\",\r\n    \"password\": \"pass\",\r\n    \"role\": \"contractor\"\r\n}",
+							"raw": "{\r\n    \"name\": \"postmanuser\",\r\n    \"email\": \"postmanuser@gmail.com\",\r\n    \"password\": \"pass\",\r\n    \"role\": \"contractor\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -840,7 +841,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/users/:id",
+							"raw": "http://localhost:3000/api/users/:user_id",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -849,12 +850,12 @@
 							"path": [
 								"api",
 								"users",
-								":id"
+								":user_id"
 							],
 							"variable": [
 								{
-									"key": "id",
-									"value": "12345678"
+									"key": "user_id",
+									"value": "78901234"
 								}
 							]
 						}
@@ -875,7 +876,7 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id",
+									"raw": "http://localhost:3000/api/users/:user_id",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -884,11 +885,11 @@
 									"path": [
 										"api",
 										"users",
-										":id"
+										":user_id"
 									],
 									"variable": [
 										{
-											"key": "id",
+											"key": "user_id",
 											"value": ""
 										}
 									]
@@ -941,7 +942,7 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id",
+									"raw": "http://localhost:3000/api/users/:user_id",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -950,11 +951,11 @@
 									"path": [
 										"api",
 										"users",
-										":id"
+										":user_id"
 									],
 									"variable": [
 										{
-											"key": "id",
+											"key": "user_id",
 											"value": ""
 										}
 									]
@@ -1007,7 +1008,7 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id",
+									"raw": "http://localhost:3000/api/users/:user_id",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -1016,11 +1017,11 @@
 									"path": [
 										"api",
 										"users",
-										":id"
+										":user_id"
 									],
 									"variable": [
 										{
-											"key": "id",
+											"key": "user_id",
 											"value": ""
 										}
 									]
@@ -1073,7 +1074,7 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id",
+									"raw": "http://localhost:3000/api/users/:user_id",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -1082,11 +1083,11 @@
 									"path": [
 										"api",
 										"users",
-										":id"
+										":user_id"
 									],
 									"variable": [
 										{
-											"key": "id",
+											"key": "user_id",
 											"value": ""
 										}
 									]
@@ -1146,7 +1147,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/users/:id",
+							"raw": "http://localhost:3000/api/users/:user_id",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -1155,12 +1156,12 @@
 							"path": [
 								"api",
 								"users",
-								":id"
+								":user_id"
 							],
 							"variable": [
 								{
-									"key": "id",
-									"value": "12345678"
+									"key": "user_id",
+									"value": ""
 								}
 							]
 						}
@@ -1186,7 +1187,7 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id",
+									"raw": "http://localhost:3000/api/users/:user_id",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -1195,12 +1196,12 @@
 									"path": [
 										"api",
 										"users",
-										":id"
+										":user_id"
 									],
 									"variable": [
 										{
-											"key": "id",
-											"value": "92043050"
+											"key": "user_id",
+											"value": ""
 										}
 									]
 								}
@@ -1252,7 +1253,7 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id",
+									"raw": "http://localhost:3000/api/users/:user_id",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -1261,12 +1262,12 @@
 									"path": [
 										"api",
 										"users",
-										":id"
+										":user_id"
 									],
 									"variable": [
 										{
-											"key": "id",
-											"value": "92043050"
+											"key": "user_id",
+											"value": ""
 										}
 									]
 								}
@@ -1323,7 +1324,7 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id",
+									"raw": "http://localhost:3000/api/users/:user_id",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -1332,12 +1333,12 @@
 									"path": [
 										"api",
 										"users",
-										":id"
+										":user_id"
 									],
 									"variable": [
 										{
-											"key": "id",
-											"value": "92043050"
+											"key": "user_id",
+											"value": ""
 										}
 									]
 								}
@@ -1394,7 +1395,7 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id",
+									"raw": "http://localhost:3000/api/users/:user_id",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -1403,12 +1404,12 @@
 									"path": [
 										"api",
 										"users",
-										":id"
+										":user_id"
 									],
 									"variable": [
 										{
-											"key": "id",
-											"value": "92043"
+											"key": "user_id",
+											"value": ""
 										}
 									]
 								}
@@ -1458,7 +1459,7 @@
 							}
 						],
 						"url": {
-							"raw": "http://localhost:3000/api/users/:id",
+							"raw": "http://localhost:3000/api/users/:user_id",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -1467,12 +1468,12 @@
 							"path": [
 								"api",
 								"users",
-								":id"
+								":user_id"
 							],
 							"variable": [
 								{
-									"key": "id",
-									"value": "12345678"
+									"key": "user_id",
+									"value": ""
 								}
 							]
 						}
@@ -1489,7 +1490,7 @@
 									}
 								],
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id",
+									"raw": "http://localhost:3000/api/users/:user_id",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -1498,12 +1499,12 @@
 									"path": [
 										"api",
 										"users",
-										":id"
+										":user_id"
 									],
 									"variable": [
 										{
-											"key": "id",
-											"value": "92043050"
+											"key": "user_id",
+											"value": ""
 										}
 									]
 								}
@@ -1551,7 +1552,7 @@
 									}
 								],
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id",
+									"raw": "http://localhost:3000/api/users/:user_id",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -1560,12 +1561,12 @@
 									"path": [
 										"api",
 										"users",
-										":id"
+										":user_id"
 									],
 									"variable": [
 										{
-											"key": "id",
-											"value": "92043050"
+											"key": "user_id",
+											"value": ""
 										}
 									]
 								}
@@ -1608,7 +1609,7 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id",
+									"raw": "http://localhost:3000/api/users/:user_id",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -1617,12 +1618,12 @@
 									"path": [
 										"api",
 										"users",
-										":id"
+										":user_id"
 									],
 									"variable": [
 										{
-											"key": "id",
-											"value": "92043050"
+											"key": "user_id",
+											"value": ""
 										}
 									]
 								}
@@ -1670,7 +1671,7 @@
 									}
 								],
 								"url": {
-									"raw": "http://localhost:3000/api/users/:id",
+									"raw": "http://localhost:3000/api/users/:user_id",
 									"protocol": "http",
 									"host": [
 										"localhost"
@@ -1679,12 +1680,12 @@
 									"path": [
 										"api",
 										"users",
-										":id"
+										":user_id"
 									],
 									"variable": [
 										{
-											"key": "id",
-											"value": "92043"
+											"key": "user_id",
+											"value": ""
 										}
 									]
 								}
@@ -1722,90 +1723,6 @@
 							"body": "{\n    \"error\": \"Invalid id\"\n}"
 						}
 					]
-				},
-				{
-					"name": "Verify User Email",
-					"request": {
-						"method": "POST",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:3000/api/users/:id/verify-email",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "3000",
-							"path": [
-								"api",
-								"users",
-								":id",
-								"verify-email"
-							],
-							"variable": [
-								{
-									"key": "id",
-									"value": ""
-								}
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "Forgot Password",
-					"request": {
-						"method": "POST",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:3000/api/users/:id/forgot-password",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "3000",
-							"path": [
-								"api",
-								"users",
-								":id",
-								"forgot-password"
-							],
-							"variable": [
-								{
-									"key": "id",
-									"value": ""
-								}
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "Reset Password",
-					"request": {
-						"method": "PATCH",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:3000/api/users/:id/reset-password",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "3000",
-							"path": [
-								"api",
-								"users",
-								":id",
-								"reset-password"
-							],
-							"variable": [
-								{
-									"key": "id",
-									"value": ""
-								}
-							]
-						}
-					},
-					"response": []
 				}
 			]
 		},
@@ -1816,9 +1733,24 @@
 					"name": "Create Customer",
 					"request": {
 						"method": "POST",
-						"header": [],
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customer_user_id\": \"90909090\",\r\n    \"address\": \"999 tesing St\",\r\n    \"email\": \"testuser999@email.com\",\r\n    \"name\": \"testuser999\",\r\n    \"phone\": \"1234567890\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
-							"raw": "http://localhost:3000/api/customers/create",
+							"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -1826,48 +1758,565 @@
 							"port": "3000",
 							"path": [
 								"api",
+								"users",
+								":user_id",
 								"customers",
-								"create"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "Edit Customer",
-					"request": {
-						"method": "PUT",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:3000/api/customers/edit/:id",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "3000",
-							"path": [
-								"api",
-								"customers",
-								"edit",
-								":id"
+								":customer_id"
 							],
 							"variable": [
 								{
-									"key": "id",
-									"value": ""
+									"key": "user_id",
+									"value": "12345678"
+								},
+								{
+									"key": "customer_id",
+									"value": "12348765"
 								}
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "Create Customer",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"customer_user_id\": \"07412580\",\r\n    \"address\": \"101 tesing St\",\r\n    \"email\": \"testuser101@email.com\",\r\n    \"name\": \"testuser101\",\r\n    \"phone\": \"1234567890\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "97531246"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "set-cookie",
+									"value": "authjs.csrf-token=2e64ca9059ac794924e3ec72f921d0bce4115d7fe7e46278501622e85d8b34cb%7C94b550433524c0a299e3de0cd11281e73a7cc1dfe3b444292f3e9477ba9d24e1; Path=/; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "set-cookie",
+									"value": "authjs.callback-url=http%3A%2F%2Flocalhost%3A3000; Path=/; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "set-cookie",
+									"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..MqzqHa2ULS-jcFuct5DYXQ.R16QuTQP55m1sSKy_WUpwskUDuX12etXLeGw0_0L6RWMG3i636No5n28VXcr9c-NgtEsReeObPED9wfVSL7yLtEbx_Prl1f0MKNbfTmTw00r_W_h-jSAqf0_2I0vg0cnbDtJKqA0HYTFI3jWmKtjyUi8iDieblU3YwiJwflyla-xIHiUjPLHgdntmR7TDmwPwyCVpduB7w5kozMRM9r2dAF39lu7b7XITbgYZwCO1Rw7lSnMc8pnxLdLg38VT8MhrPtqzjWRXzIyg4RfSreUZQ.UJSWl5wikwZVVDfXI2rfrGzUiqFrpbMXcb72Ffo49QM; Path=/; Expires=Fri, 19 Jul 2024 23:39:52 GMT; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 19 Jun 2024 23:39:54 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Customer successfully created\",\n    \"customer\": {\n        \"id\": 97531246,\n        \"contractor_user_id\": 12345678,\n        \"customer_user_id\": \"07412580\",\n        \"address\": \"101 tesing St\",\n        \"email\": \"testuser101@email.com\",\n        \"name\": \"testuser101\",\n        \"phone\": \"1234567890\",\n        \"createdAt\": \"2024-06-19T23:39:53.577Z\",\n        \"updatedAt\": \"2024-06-19T23:39:53.577Z\"\n    },\n    \"customerUser\": {\n        \"id\": \"07412580\",\n        \"name\": \"testuser101\",\n        \"email\": \"testuser101@email.com\",\n        \"password\": \"$2b$10$Iwkcgptcnyqzi1vusO2PD.nmhxHQPxp5xuRZcvAjG3T57rnh3pGO6\",\n        \"newUser\": true,\n        \"role\": \"customer\",\n        \"emailVerified\": null,\n        \"createdAt\": \"2024-06-19T23:39:54.681Z\",\n        \"updatedAt\": \"2024-06-19T23:39:54.681Z\"\n    }\n}"
+						},
+						{
+							"name": "No Session",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "next-auth.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..-nMXmNbi-VqCLCR7.GQ2fO37sgqkit7jyhYIRAUvQDhB9RN4x-PLMnMesdl61SvTZvSwfwSCojNQtBxCwvxRGpZsyhmxS6BEe9eGPpMtAIOf0HgivkGtIV-byjhgJjyKTfcqUN2yKFsK8D5OAtSQhwHG6AbE6UyXNVlmSEN-K8_3RppV5txJrKSb416TFbQVCxwPHBiHej-TzMatl38q-Y7d_JGOiNS-r9-ZFA09zvHuSHYMvwWIN1E67gALcR8iMX7pV4Q.CXbiSe5WHTZDtXPzmMSPGw; Path=/; Expires=Wed, 10 Jul 2024 02:28:24 GMT; HttpOnly; SameSite=Lax",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"customer_user_id\": \"87654321\",\r\n    \"address\": \"123 tesing St\",\r\n    \"email\": \"testcustomer@email.com\",\r\n    \"name\": \"testcustomer\",\r\n    \"phone\": \"1234567890\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "36680340"
+										},
+										{
+											"key": "customer_id",
+											"value": "12345678"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Url"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 16 Jun 2024 02:15:16 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"error\": \"No session\"\n}"
+						},
+						{
+							"name": "Server Error",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "next-auth.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..-nMXmNbi-VqCLCR7.GQ2fO37sgqkit7jyhYIRAUvQDhB9RN4x-PLMnMesdl61SvTZvSwfwSCojNQtBxCwvxRGpZsyhmxS6BEe9eGPpMtAIOf0HgivkGtIV-byjhgJjyKTfcqUN2yKFsK8D5OAtSQhwHG6AbE6UyXNVlmSEN-K8_3RppV5txJrKSb416TFbQVCxwPHBiHej-TzMatl38q-Y7d_JGOiNS-r9-ZFA09zvHuSHYMvwWIN1E67gALcR8iMX7pV4Q.CXbiSe5WHTZDtXPzmMSPGw; Path=/; Expires=Wed, 10 Jul 2024 02:28:24 GMT; HttpOnly; SameSite=Lax",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"customer_user_id\": 87654321,\r\n    \"address\": \"123 tesing St\",\r\n    \"email\": \"testcustomer@email.com\",\r\n    \"name\": \"testcustomer\",\r\n    \"phone\": \"1234567890\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "36680340"
+										},
+										{
+											"key": "customer_id",
+											"value": "12345678"
+										}
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Url"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 16 Jun 2024 02:16:04 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"error\": \"column \\\"address\\\" of relation \\\"customers\\\" does not exist\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Update Customer",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customer_user_id\": \"07412580\",\r\n    \"address\": \"101 tesing St(updated)\",\r\n    \"email\": \"testuser101@email.com(updated)\",\r\n    \"name\": \"testuser101(updated)\",\r\n    \"phone\": \"1234567890\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								":user_id",
+								"customers",
+								":customer_id"
+							],
+							"variable": [
+								{
+									"key": "user_id",
+									"value": "12345678"
+								},
+								{
+									"key": "customer_id",
+									"value": "97531246"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Update Customer",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"customer_user_id\": \"07412580\",\r\n    \"address\": \"101 tesing St(updated)\",\r\n    \"email\": \"testuser101@email.com(updated)\",\r\n    \"name\": \"testuser101(updated)\",\r\n    \"phone\": \"1234567890\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "97531246"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "set-cookie",
+									"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..n60uB3KPXpG8EZbPs47CkA.P8ldmj5fI1vOfVR6vBIwhCK4bhkoWsZehxmxPm5-1xpSZ1lXk0zHQeKB34cE6S_gLbK8T8Cd4ttLQ5n8sGT60af8HHnIj_TUUWtMA7_BfsZVvgoDVmiKe3f__zicn9FKjD8Hfosy6SVqFYNj3JPoQFph2tNErX2MT51uBQOQ2xiIBXU0OBCafxcN948YlonwqTzHklHTnE2QSE3s1nG0RQO82lsSrSjRvhP9oCqiATsVdTxs54qRp08YFrV-XyCfU2KpJj4WDlZN2G98RoDFdQ.ujcGZmQNIfLBLApv7eoARP7YDXjw2R2-Tjdsph5svRY; Path=/; Expires=Sat, 20 Jul 2024 04:25:08 GMT; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 04:25:12 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Customer successfully updated\",\n    \"updatedCustomer\": {\n        \"command\": \"UPDATE\",\n        \"fields\": [],\n        \"rowAsArray\": false,\n        \"rowCount\": 0,\n        \"rows\": [],\n        \"viaNeonFetch\": true\n    },\n    \"updatedCustomerUser\": {\n        \"command\": \"UPDATE\",\n        \"fields\": [],\n        \"rowAsArray\": false,\n        \"rowCount\": 1,\n        \"rows\": [],\n        \"viaNeonFetch\": true\n    }\n}"
+						},
+						{
+							"name": "No Session",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"customer_user_id\": \"07412580\",\r\n    \"address\": \"101 tesing St(updated)\",\r\n    \"email\": \"testuser101@email.com(updated)\",\r\n    \"name\": \"testuser101(updated)\",\r\n    \"phone\": \"1234567890\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "97531246"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 19 Jun 2024 23:54:40 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"error\": \"No session\"\n}"
+						},
+						{
+							"name": "Server Error",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "97531246"
+										}
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "set-cookie",
+									"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..RptIub21xNGTNubH3gmOaA.NfNXK6tCbfJn6r7GifAI9nttueLeaH1cuCtXLmxJIPazO22Y-HEtbvLKwEo1eKLtclQbP9WyAmvk3gQOqo9krQlG8lH5RsnmxhPNZNAXCMpLbOAJ60RAIZfkgdegBVMmy4d2cZrgVwlAS2kXuXJA3KtVmWxyJCiV9ePzoHORELw8gVRa6bSijzQvN31jDw0YrRCNobKWPM9qMjOBKRdhX02liuv4_tTXBokuznBYQqtpqvHAxzxFGknts50LWEp4GsFOXj-8zP1GxIvnNxESJg.Ow8Tuo6U4wjNDBo_fOLspOhh_exBeQmB7O9pr5Lxq-I; Path=/; Expires=Fri, 19 Jul 2024 23:56:53 GMT; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 19 Jun 2024 23:56:53 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
 				},
 				{
 					"name": "Delete Customer",
 					"request": {
 						"method": "DELETE",
-						"header": [],
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+								"type": "text"
+							}
+						],
 						"url": {
-							"raw": "http://localhost:3000/api/customers/delete/:id",
+							"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -1875,19 +2324,234 @@
 							"port": "3000",
 							"path": [
 								"api",
+								"users",
+								":user_id",
 								"customers",
-								"delete",
-								":id"
+								":customer_id"
 							],
 							"variable": [
 								{
-									"key": "id",
-									"value": ""
+									"key": "user_id",
+									"value": "12345678"
+								},
+								{
+									"key": "customer_id",
+									"value": "97531246"
 								}
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "Delete Customer",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "97531246"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "set-cookie",
+									"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..cq6AmFe7tlw9btGkVjSgYA.lLuA-rZGh4qdGKmsCtLkvCUg6hzdh0jIoEJ2A1A_jv_BhuttSBiYqaqrgfog-IjhYUnTCnpUCqk6tqhPEvHJpkoEdedEvY7JapYdHcmAYYPzQbAEL-Zye9btwfH5cfTYNuPbRRUKIrEFZW9pRa_Pp8LdGAUmoSP5gz4jH2CIhBMc02saiBBFxNFQli165Iab0KqrkdR57GU-bQNAKzbHUIVx9jGc13U1FKFbbZzRIJZSCorQvjINje5JYbm2rCLwVFN6aWHy5IHTA4dKTRNaLg.y9o8pYJAw-qv3VGyggvBbVSMXcJUaxYZJY_4ltYrnHs; Path=/; Expires=Sat, 20 Jul 2024 00:46:59 GMT; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 00:47:00 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Customer: 97531246 successfully deleted\"\n}"
+						},
+						{
+							"name": "No Session",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "97531246"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 00:44:02 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"error\": \"No session\"\n}"
+						},
+						{
+							"name": "Server Error",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": ""
+										}
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "set-cookie",
+									"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..tYSoDUHGNPGsoY00Gs7WGg.eJQ0k75u8-mLpxEsmo_1zCf8o_X2EbBOufRpwu00HU41RmK_PrJLfN5Pqx3hWwNT-0JRgkh1vfuv-eX3Yw3VgkBkVZ604BB2nJU1nsv7GkxjJEr52Qpo-yKXNtf4QSezbsjTANLFZcvJ2zedPjqakE5BBwlJQQz-Q0A6O8q7YWgSZLMxD1hSCERlH5iYO-UhwydUwP9b9Z1PQm5KLDoNOD4WqLUusntckdCpmhlF9jPbeokQHnauIwQVrLAxPA56aa8Ltu9o7XZ3Yp6b_aIRsA.WStdV3jCF3f7IBy0d7ezPsm1YZA7q_f5wE9OR2L4gk8; Path=/; Expires=Sat, 20 Jul 2024 00:46:33 GMT; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 00:46:33 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"error\": \"invalid input syntax for type bigint: \\\"NaN\\\"\"\n}"
+						}
+					]
 				}
 			]
 		},
@@ -1898,9 +2562,24 @@
 					"name": "Create Estimate",
 					"request": {
 						"method": "POST",
-						"header": [],
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customer_user_id\": \"90909090\",\r\n    \"contractorAddress\": \"123 test St\",\r\n    \"contractorName\": \"contractor\",\r\n    \"contractorPhone\": \"1234567890\",\r\n    \"customerEmail\": \"test@email.com\",\r\n    \"customerName\": \"customer\",\r\n    \"estimateName\": \"test estimate\",\r\n    \"message\": \"test message\",\r\n    \"projectAddress\": \"123 test project St\",\r\n    \"status\": \"new-estimate\",\r\n    \"subtotal\": \"50.00\",\r\n    \"tax\": \"3.50\",\r\n    \"taxRate\": \"7\",\r\n    \"total\": \"53.50\",\r\n    \"lineItems\": [\r\n        {\r\n          \"amount\": \"1\",\r\n          \"description\": \"paint\",\r\n          \"item\": \"item 1\",\r\n          \"price\": \"10.00\",\r\n          \"quantity\": \"10\",\r\n          \"rateType\": \"test\"\r\n        },\r\n        {\r\n          \"amount\": \"2\",\r\n          \"description\": \"carpentry\",\r\n          \"item\": \"itme 2\",\r\n          \"price\": \"20.00\",\r\n          \"quantity\": \"10\",\r\n          \"rateType\": \"test 567\"\r\n        },\r\n        {\r\n          \"amount\": \"4\",\r\n          \"description\": \"hvac\",\r\n          \"item\": \"item 3\",\r\n          \"price\": \"20.00\",\r\n          \"quantity\": \"5\",\r\n          \"rateType\": \"test 321\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
-							"raw": "http://localhost:3000/api/estimates/create",
+							"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -1908,48 +2587,618 @@
 							"port": "3000",
 							"path": [
 								"api",
+								"users",
+								":user_id",
+								"customers",
+								":customer_id",
 								"estimates",
-								"create"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "Edit Customer",
-					"request": {
-						"method": "PUT",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:3000/api/estimates/edit/:id",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "3000",
-							"path": [
-								"api",
-								"estimates",
-								"edit",
-								":id"
+								":estimate_id"
 							],
 							"variable": [
 								{
-									"key": "id",
-									"value": ""
+									"key": "user_id",
+									"value": "12345678"
+								},
+								{
+									"key": "customer_id",
+									"value": "12348765"
+								},
+								{
+									"key": "estimate_id",
+									"value": "33333333"
 								}
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "Create Estimate",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"customer_user_id\": \"90909090\",\r\n    \"contractorAddress\": \"123 test St\",\r\n    \"contractorName\": \"contractor\",\r\n    \"contractorPhone\": \"1234567890\",\r\n    \"customerEmail\": \"test@email.com\",\r\n    \"customerName\": \"customer\",\r\n    \"estimateName\": \"test estimate\",\r\n    \"message\": \"test message\",\r\n    \"projectAddress\": \"123 test project St\",\r\n    \"status\": \"new-estimate\",\r\n    \"subtotal\": \"50.00\",\r\n    \"tax\": \"3.50\",\r\n    \"taxRate\": \"7\",\r\n    \"total\": \"53.50\",\r\n    \"lineItems\": [\r\n        {\r\n          \"amount\": \"1\",\r\n          \"description\": \"paint\",\r\n          \"item\": \"item 1\",\r\n          \"price\": \"10.00\",\r\n          \"quantity\": \"10\",\r\n          \"rateType\": \"test\"\r\n        },\r\n        {\r\n          \"amount\": \"2\",\r\n          \"description\": \"carpentry\",\r\n          \"item\": \"itme 2\",\r\n          \"price\": \"20.00\",\r\n          \"quantity\": \"10\",\r\n          \"rateType\": \"test 567\"\r\n        },\r\n        {\r\n          \"amount\": \"4\",\r\n          \"description\": \"hvac\",\r\n          \"item\": \"item 3\",\r\n          \"price\": \"20.00\",\r\n          \"quantity\": \"5\",\r\n          \"rateType\": \"test 321\"\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id",
+										"estimates",
+										":estimate_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "12348765"
+										},
+										{
+											"key": "estimate_id",
+											"value": "33333333"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "set-cookie",
+									"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..T-dm4czu-nY7RaccbKsidw.dqlKu5N2t27-I5mvERkVzegRLRseRUHTPz87USwXo2PC5W67vaPLI0NqmML6hL3ScaCDJRBORaKTX02jOFUUgBV1NRs1mDcIy-ArA73N82VIhVvATCiaPtaiJVx_1OlfjAy2w7hVkEmjclXn2P4qdIaFN8499zXxI4JqXR8nYxMc3fZqS-YG9R1VYDH6f2S7IbScbzQlZ4PT_F8A1g0DBpVqNX2G45_NBv6GkctswQUxl3yBNeeujq7gYzI3n8ww9iG_ARWNkcWAeIHufG5pVA.CMwOB4xdQ-wvEIvHlIglsv0EIijszyQ8D5td5BxG8oE; Path=/; Expires=Sat, 20 Jul 2024 01:58:52 GMT; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 01:58:52 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Estimate successfully created\",\n    \"estimateData\": {\n        \"id\": 33333333,\n        \"contractor_user_id\": 12345678,\n        \"customer_id\": 12348765,\n        \"customer_user_id\": \"90909090\",\n        \"contractorAddress\": \"123 test St\",\n        \"contractorName\": \"contractor\",\n        \"contractorPhone\": \"1234567890\",\n        \"customerEmail\": \"test@email.com\",\n        \"customerName\": \"customer\",\n        \"estimateName\": \"test estimate\",\n        \"message\": \"test message\",\n        \"projectAddress\": \"123 test project St\",\n        \"status\": \"new-estimate\",\n        \"subtotal\": \"50.00\",\n        \"tax\": \"3.50\",\n        \"taxRate\": \"7\",\n        \"total\": \"53.50\",\n        \"createdAt\": \"2024-06-20T01:58:52.240Z\",\n        \"updatedAt\": \"2024-06-20T01:58:52.240Z\"\n    },\n    \"lineItems\": [\n        {\n            \"id\": 3756737,\n            \"estimate_id\": 33333333,\n            \"amount\": \"1\",\n            \"description\": \"paint\",\n            \"item\": \"item 1\",\n            \"price\": \"10.00\",\n            \"quantity\": \"10\",\n            \"rateType\": \"test\",\n            \"createdAt\": \"2024-06-20T01:58:52.385Z\",\n            \"updatedAt\": \"2024-06-20T01:58:52.385Z\"\n        },\n        {\n            \"id\": 24541998,\n            \"estimate_id\": 33333333,\n            \"amount\": \"2\",\n            \"description\": \"carpentry\",\n            \"item\": \"itme 2\",\n            \"price\": \"20.00\",\n            \"quantity\": \"10\",\n            \"rateType\": \"test 567\",\n            \"createdAt\": \"2024-06-20T01:58:52.386Z\",\n            \"updatedAt\": \"2024-06-20T01:58:52.386Z\"\n        },\n        {\n            \"id\": 75030254,\n            \"estimate_id\": 33333333,\n            \"amount\": \"4\",\n            \"description\": \"hvac\",\n            \"item\": \"item 3\",\n            \"price\": \"20.00\",\n            \"quantity\": \"5\",\n            \"rateType\": \"test 321\",\n            \"createdAt\": \"2024-06-20T01:58:52.386Z\",\n            \"updatedAt\": \"2024-06-20T01:58:52.386Z\"\n        }\n    ]\n}"
+						},
+						{
+							"name": "No Session",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"customer_user_id\": \"90909090\",\r\n    \"contractorAddress\": \"123 test St\",\r\n    \"contractorName\": \"contractor\",\r\n    \"contractorPhone\": \"1234567890\",\r\n    \"customerEmail\": \"test@email.com\",\r\n    \"customerName\": \"customer\",\r\n    \"estimateName\": \"test estimate\",\r\n    \"message\": \"test message\",\r\n    \"projectAddress\": \"123 test project St\",\r\n    \"status\": \"new-estimate\",\r\n    \"subtotal\": \"50.00\",\r\n    \"tax\": \"3.50\",\r\n    \"taxRate\": \"7\",\r\n    \"total\": \"53.50\",\r\n    \"lineItems\": [\r\n        {\r\n          \"amount\": \"1\",\r\n          \"description\": \"paint\",\r\n          \"item\": \"item 1\",\r\n          \"price\": \"10.00\",\r\n          \"quantity\": \"10\",\r\n          \"rateType\": \"test\"\r\n        },\r\n        {\r\n          \"amount\": \"2\",\r\n          \"description\": \"carpentry\",\r\n          \"item\": \"itme 2\",\r\n          \"price\": \"20.00\",\r\n          \"quantity\": \"10\",\r\n          \"rateType\": \"test 567\"\r\n        },\r\n        {\r\n          \"amount\": \"4\",\r\n          \"description\": \"hvac\",\r\n          \"item\": \"item 3\",\r\n          \"price\": \"20.00\",\r\n          \"quantity\": \"5\",\r\n          \"rateType\": \"test 321\"\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id",
+										"estimates",
+										":estimate_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "12348765"
+										},
+										{
+											"key": "estimate_id",
+											"value": "12345678"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 01:26:50 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"error\": \"No session\"\n}"
+						},
+						{
+							"name": "Server Error",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"customer_user_id\": \"90909090\",\r\n    \"contractorAddress\": \"123 test St\",\r\n    \"contractorName\": \"contractor\",\r\n    \"contractorPhone\": \"1234567890\",\r\n    \"customerEmail\": \"test@email.com\",\r\n    \"customerName\": \"customer\",\r\n    \"estimateName\": \"test estimate\",\r\n    \"message\": 123,\r\n    \"projectAddress\": \"123 test project St\",\r\n    \"status\": \"new-estimate\",\r\n    \"subtotal\": \"50.00\",\r\n    \"tax\": \"3.50\",\r\n    \"taxRate\": \"7\",\r\n    \"total\": \"53.50\",\r\n    \"lineItems\": [\r\n        {\r\n          \"amount\": \"1\",\r\n          \"description\": \"paint\",\r\n          \"item\": \"item 1\",\r\n          \"price\": \"10.00\",\r\n          \"quantity\": \"10\",\r\n          \"rateType\": \"test\"\r\n        },\r\n        {\r\n          \"amount\": \"2\",\r\n          \"description\": \"carpentry\",\r\n          \"item\": \"itme 2\",\r\n          \"price\": \"20.00\",\r\n          \"quantity\": \"10\",\r\n          \"rateType\": \"test 567\"\r\n        },\r\n        {\r\n          \"amount\": \"4\",\r\n          \"description\": \"hvac\",\r\n          \"item\": \"item 3\",\r\n          \"price\": \"20.00\",\r\n          \"quantity\": \"5\",\r\n          \"rateType\": \"test 321\"\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id",
+										"estimates",
+										":estimate_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "12348765"
+										},
+										{
+											"key": "estimate_id",
+											"value": "12345678"
+										}
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "set-cookie",
+									"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..lmRgk2afGLWdekZxMAaYNw.MjJeMSTuV_XlzYVWPk7Vl5i27fCaYlQ9Tq6UNoxc5TvYzVPcyz5s5gaT0Dgb2RkS30J1r1skn8vKtrBY7JfWnNHoDTmuWZqq9lsy3VlogRb67wNYsOZGNcG-vtBfNrpN2Fa_4ztN2qG01UMyWWXmkuzA8zJjtTk9TxOewV_buDUkepjv7pq7wxWH8mpFyRfuEuK-mAVs46D0ZlWemdYQ5w2QyBmTLr-Sm4QBuGvmYFuTLwTRHGA6tJLj27dEhsESoK4DUwEuyk8z_7VhJzJQzA.r4Gx0sP9Ne4dl8K0yFWy-Ct1zqtjz31sofVtdRlkfQA; Path=/; Expires=Sat, 20 Jul 2024 01:26:10 GMT; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 01:26:12 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Update Estimate",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customer_user_id\": \"90909090\",\r\n    \"contractorAddress\": \"123 test St\",\r\n    \"contractorName\": \"contractor\",\r\n    \"contractorPhone\": \"1234567890\",\r\n    \"customerEmail\": \"test@email.com\",\r\n    \"customerName\": \"customer\",\r\n    \"estimateName\": \"test estimate\",\r\n    \"message\": \"test message\",\r\n    \"projectAddress\": \"123 test project St\",\r\n    \"status\": \"new-estimate\",\r\n    \"subtotal\": \"50.00\",\r\n    \"tax\": \"3.50\",\r\n    \"taxRate\": \"7\",\r\n    \"total\": \"53.50\",\r\n    \"lineItems\": [\r\n        {\r\n          \"amount\": \"1\",\r\n          \"description\": \"paint\",\r\n          \"item\": \"item 1\",\r\n          \"price\": \"10.00\",\r\n          \"quantity\": \"10\",\r\n          \"rateType\": \"test\"\r\n        },\r\n        {\r\n          \"amount\": \"2\",\r\n          \"description\": \"carpentry\",\r\n          \"item\": \"itme 2\",\r\n          \"price\": \"20.00\",\r\n          \"quantity\": \"10\",\r\n          \"rateType\": \"test 567\"\r\n        },\r\n        {\r\n          \"amount\": \"4\",\r\n          \"description\": \"hvac\",\r\n          \"item\": \"item 3\",\r\n          \"price\": \"20.00\",\r\n          \"quantity\": \"5\",\r\n          \"rateType\": \"test 321\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								":user_id",
+								"customers",
+								":customer_id",
+								"estimates",
+								":estimate_id"
+							],
+							"variable": [
+								{
+									"key": "user_id",
+									"value": "12345678"
+								},
+								{
+									"key": "customer_id",
+									"value": "12348765"
+								},
+								{
+									"key": "estimate_id",
+									"value": "33333333"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Server Error",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"customer_user_id\": \"90909090\",\r\n    \"contractorAddress\": \"123 test St\",\r\n    \"contractorName\": \"contractor\",\r\n    \"contractorPhone\": \"1234567890\",\r\n    \"customerEmail\": \"test@email.com\",\r\n    \"customerName\": \"customer\",\r\n    \"estimateName\": \"test estimate\",\r\n    \"message\": \"test message\",\r\n    \"projectAddress\": \"123 test project St\",\r\n    \"status\": \"new-estimate\",\r\n    \"subtotal\": \"50.00\",\r\n    \"tax\": \"3.50\",\r\n    \"taxRate\": \"7\",\r\n    \"total\": \"53.50\",\r\n    \"lineItems\": [\r\n        {\r\n          \"amount\": \"1\",\r\n          \"description\": \"paint\",\r\n          \"item\": \"item 1\",\r\n          \"price\": \"10.00\",\r\n          \"quantity\": \"10\",\r\n          \"rateType\": \"test\"\r\n        },\r\n        {\r\n          \"amount\": \"2\",\r\n          \"description\": \"carpentry\",\r\n          \"item\": \"itme 2\",\r\n          \"price\": \"20.00\",\r\n          \"quantity\": \"10\",\r\n          \"rateType\": \"test 567\"\r\n        },\r\n        {\r\n          \"amount\": \"4\",\r\n          \"description\": \"hvac\",\r\n          \"item\": \"item 3\",\r\n          \"price\": \"20.00\",\r\n          \"quantity\": \"5\",\r\n          \"rateType\": \"test 321\"\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id",
+										"estimates",
+										":estimate_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "12348765"
+										},
+										{
+											"key": "estimate_id",
+											"value": "33333333"
+										}
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "set-cookie",
+									"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..IPr6BiCijPoaA0g2YMqf3g.4nHJqNGbd0eQfceY-5H7y7gh9jCWL6_hbfV06CeHZxW4F8BKF1LlltkRpZv_lGD6khh1NruwYekoHAax5mMpQgO7UHimIyraW_8MvLrcL1ZqrRSAMZHI9yVvrtKQlJSDHyOYiIBi7296bDG6iwXRKo0KhHtfvu6J4rKqSE9GMUAMWLT9nsaELohcMdFyborrx1XtVOeUFG9COzlnr4M2ArhoJLxrhSqNY6NBHN7A6Cy4UBO7ISXb89XR7l9l6GvkHUYqrQ7GACu1WJIoJlcN9A.97H1fZuBP2j_b9w1F9iSj7DSo2JJI6r6jk2ARZr__Xc; Path=/; Expires=Sat, 20 Jul 2024 02:06:56 GMT; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 02:06:56 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"error\": \"server error\"\n}"
+						},
+						{
+							"name": "No Session",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"customer_user_id\": \"90909090\",\r\n    \"contractorAddress\": \"123 test St\",\r\n    \"contractorName\": \"contractor\",\r\n    \"contractorPhone\": \"1234567890\",\r\n    \"customerEmail\": \"test@email.com\",\r\n    \"customerName\": \"customer\",\r\n    \"estimateName\": \"test estimate\",\r\n    \"message\": \"test message\",\r\n    \"projectAddress\": \"123 test project St\",\r\n    \"status\": \"new-estimate\",\r\n    \"subtotal\": \"50.00\",\r\n    \"tax\": \"3.50\",\r\n    \"taxRate\": \"7\",\r\n    \"total\": \"53.50\",\r\n    \"lineItems\": [\r\n        {\r\n          \"amount\": \"1\",\r\n          \"description\": \"paint\",\r\n          \"item\": \"item 1\",\r\n          \"price\": \"10.00\",\r\n          \"quantity\": \"10\",\r\n          \"rateType\": \"test\"\r\n        },\r\n        {\r\n          \"amount\": \"2\",\r\n          \"description\": \"carpentry\",\r\n          \"item\": \"itme 2\",\r\n          \"price\": \"20.00\",\r\n          \"quantity\": \"10\",\r\n          \"rateType\": \"test 567\"\r\n        },\r\n        {\r\n          \"amount\": \"4\",\r\n          \"description\": \"hvac\",\r\n          \"item\": \"item 3\",\r\n          \"price\": \"20.00\",\r\n          \"quantity\": \"5\",\r\n          \"rateType\": \"test 321\"\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id",
+										"estimates",
+										":estimate_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "12348765"
+										},
+										{
+											"key": "estimate_id",
+											"value": "33333333"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 02:07:21 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"error\": \"No session\"\n}"
+						},
+						{
+							"name": "Update Estimate",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"customer_user_id\": \"90909090\",\r\n    \"contractorAddress\": \"123 test St(updated)\",\r\n    \"contractorName\": \"contractor(updated)\",\r\n    \"contractorPhone\": \"1234567890(updated)\",\r\n    \"customerEmail\": \"test@email.com(updated)\",\r\n    \"customerName\": \"customer(updated)\",\r\n    \"estimateName\": \"test estimate(updated)\",\r\n    \"message\": \"test message(updated)\",\r\n    \"projectAddress\": \"123 test project St(updated)\",\r\n    \"status\": \"new-estimate(updated)\",\r\n    \"subtotal\": \"50.00\",\r\n    \"tax\": \"3.50\",\r\n    \"taxRate\": \"7\",\r\n    \"total\": \"53.50\",\r\n    \"lineItems\": [\r\n        {\r\n          \"amount\": \"1\",\r\n          \"description\": \"paint(updated)\",\r\n          \"item\": \"item 1(updated)\",\r\n          \"price\": \"10.00\",\r\n          \"quantity\": \"10\",\r\n          \"rateType\": \"test\"\r\n        },\r\n        {\r\n          \"amount\": \"2\",\r\n          \"description\": \"carpentry(updated)\",\r\n          \"item\": \"itme 2(updated)\",\r\n          \"price\": \"20.00\",\r\n          \"quantity\": \"10\",\r\n          \"rateType\": \"test 567\"\r\n        },\r\n        {\r\n          \"amount\": \"4\",\r\n          \"description\": \"hvac(updated)\",\r\n          \"item\": \"item 3(updated)\",\r\n          \"price\": \"20.00\",\r\n          \"quantity\": \"5\",\r\n          \"rateType\": \"test 321\"\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id",
+										"estimates",
+										":estimate_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "12348765"
+										},
+										{
+											"key": "estimate_id",
+											"value": "33333333"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "set-cookie",
+									"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..SbcwKIG9L6KhvjGlMAAt3g.D41vim_Xk1GjULRd68gqD6N-_7li0uV1hD32Ca0fxLr4mmStTvPLEVpBrw5-7kRm_wk0f74S_3Q0CTUw9GTPD2-YghGRRtMv1mvDhohs5ofsCe2RO5tpM54IExXhkxXUuqMPBw7WXL8JNYq9_4kXkzJzBCWqu3RlzJRqiUIV3P-UTZFN7xI1-IXYAzVcCIXJ62r-iPc_xgdVzSjcPHJE4wZyCMDU8uVAWLk1uiaLX2IDN2JlYY4gLf9PJvBhIx7vnVg97YHFmyuhSInRT2g_hw.uRaY2PrCCB9zSoVtmHgntSCGzYvbzRTZiVWope3f3Dk; Path=/; Expires=Sat, 20 Jul 2024 02:55:33 GMT; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 02:55:39 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Estimate successfully updated\",\n    \"updatedEstimateData\": {\n        \"contractorAddress\": \"123 test St(updated)\",\n        \"contractorName\": \"contractor(updated)\",\n        \"contractorPhone\": \"1234567890(updated)\",\n        \"customerEmail\": \"test@email.com(updated)\",\n        \"customerName\": \"customer(updated)\",\n        \"estimateName\": \"test estimate(updated)\",\n        \"message\": \"test message(updated)\",\n        \"projectAddress\": \"123 test project St(updated)\",\n        \"status\": \"new-estimate(updated)\",\n        \"subtotal\": \"50.00\",\n        \"tax\": \"3.50\",\n        \"taxRate\": \"7\",\n        \"total\": \"53.50\",\n        \"updatedAt\": \"2024-06-20T02:55:38.304Z\"\n    },\n    \"lineItems\": [\n        {\n            \"id\": 37238963,\n            \"estimate_id\": 33333333,\n            \"amount\": \"1\",\n            \"description\": \"paint(updated)\",\n            \"item\": \"item 1(updated)\",\n            \"price\": \"10.00\",\n            \"quantity\": \"10\",\n            \"rateType\": \"test\",\n            \"updatedAt\": \"2024-06-20T02:55:39.331Z\"\n        },\n        {\n            \"id\": 9000739,\n            \"estimate_id\": 33333333,\n            \"amount\": \"2\",\n            \"description\": \"carpentry(updated)\",\n            \"item\": \"itme 2(updated)\",\n            \"price\": \"20.00\",\n            \"quantity\": \"10\",\n            \"rateType\": \"test 567\",\n            \"updatedAt\": \"2024-06-20T02:55:39.331Z\"\n        },\n        {\n            \"id\": 62127254,\n            \"estimate_id\": 33333333,\n            \"amount\": \"4\",\n            \"description\": \"hvac(updated)\",\n            \"item\": \"item 3(updated)\",\n            \"price\": \"20.00\",\n            \"quantity\": \"5\",\n            \"rateType\": \"test 321\",\n            \"updatedAt\": \"2024-06-20T02:55:39.331Z\"\n        }\n    ]\n}"
+						}
+					]
 				},
 				{
 					"name": "Delete Estimate",
 					"request": {
 						"method": "DELETE",
-						"header": [],
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+								"type": "text"
+							}
+						],
 						"url": {
-							"raw": "http://localhost:3000/api/estimates/delete/:id",
+							"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -1957,47 +3206,262 @@
 							"port": "3000",
 							"path": [
 								"api",
+								"users",
+								":user_id",
+								"customers",
+								":customer_id",
 								"estimates",
-								"delete",
-								":id"
+								":estimate_id"
 							],
 							"variable": [
 								{
-									"key": "id",
-									"value": ""
+									"key": "user_id",
+									"value": "12345678"
+								},
+								{
+									"key": "customer_id",
+									"value": "12348765"
+								},
+								{
+									"key": "estimate_id",
+									"value": "33333333"
 								}
 							]
 						}
 					},
-					"response": []
-				},
-				{
-					"name": "Get By User",
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:3000/api/estimates/get-by-user/:id",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "3000",
-							"path": [
-								"api",
-								"estimates",
-								"get-by-user",
-								":id"
-							],
-							"variable": [
-								{
-									"key": "id",
-									"value": ""
+					"response": [
+						{
+							"name": "Server Error",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id",
+										"estimates",
+										":estimate_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "12348765"
+										},
+										{
+											"key": "estimate_id",
+											"value": "33333333"
+										}
+									]
 								}
-							]
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 02:59:06 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"error\": \"Server Error\"\n}"
+						},
+						{
+							"name": "No Session",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id",
+										"estimates",
+										":estimate_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "12348765"
+										},
+										{
+											"key": "estimate_id",
+											"value": "33333333"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 02:59:31 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"error\": \"No session\"\n}"
+						},
+						{
+							"name": "Delete Estimate",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id",
+										"estimates",
+										":estimate_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "12348765"
+										},
+										{
+											"key": "estimate_id",
+											"value": "33333333"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "set-cookie",
+									"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..1N61mcIso6OGTDEFWdhslw.IPFzeX27nb1SmLopBBJdwZh61KUysyoYgS1LRB6MdFRyD1mnBIWz7NNMV9FXaDcl3aMi6Z5qr9EWlKDo8EQW5vBKs1GFYwUMXHwvHlYiM163vutFCSEpiYhl9_QI9l2paiLopJzR3hCA1sMGhn5yEm-ORDv1BZOY1aXwHYP9GLhQz_b2uOYkWA3w6Mh60QloJb1pHfOr2MRgpp-FNbZ-68v1uHwzbqef1OJjj3glHaO4HNerAy3XQyFEkWiBLG2yVnWNsIbgX7igtQlQvudRyQ.OyXCR4-IDqBfUr0Aiqj5NyygqqancdAFzUrwO2rzP00; Path=/; Expires=Sat, 20 Jul 2024 02:59:52 GMT; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 02:59:52 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Estimate successfully deleted\"\n}"
 						}
-					},
-					"response": []
+					]
 				}
 			]
 		},
@@ -2008,145 +3472,16 @@
 					"name": "Create Change Order",
 					"request": {
 						"method": "POST",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:3000/api/change-orders/create",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "3000",
-							"path": [
-								"api",
-								"change-orders",
-								"create"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "Edit Change Order",
-					"request": {
-						"method": "PUT",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:3000/api/change-orders/edit/:id",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "3000",
-							"path": [
-								"api",
-								"change-orders",
-								"edit",
-								":id"
-							],
-							"variable": [
-								{
-									"key": "id",
-									"value": ""
-								}
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "Delete Change Order",
-					"request": {
-						"method": "DELETE",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:3000/api/change-orders/delete/:id",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "3000",
-							"path": [
-								"api",
-								"change-orders",
-								"delete",
-								":id"
-							],
-							"variable": [
-								{
-									"key": "id",
-									"value": ""
-								}
-							]
-						}
-					},
-					"response": []
-				}
-			]
-		},
-		{
-			"name": "Work Orders",
-			"item": [
-				{
-					"name": "Get Work Orders",
-					"request": {
-						"method": "GET",
-						"header": []
-					},
-					"response": []
-				},
-				{
-					"name": "Get Work Order",
-					"request": {
-						"method": "GET",
-						"header": []
-					},
-					"response": []
-				},
-				{
-					"name": "Create Work Order",
-					"request": {
-						"method": "POST",
-						"header": []
-					},
-					"response": []
-				},
-				{
-					"name": "Edit Work Order",
-					"request": {
-						"method": "PUT",
-						"header": []
-					},
-					"response": []
-				},
-				{
-					"name": "Delete Work Order",
-					"request": {
-						"method": "DELETE",
-						"header": []
-					},
-					"response": []
-				}
-			]
-		},
-		{
-			"name": "Invoices",
-			"item": []
-		},
-		{
-			"name": "Emails",
-			"item": []
-		},
-		{
-			"name": "Auth",
-			"item": [
-				{
-					"name": "Sign In",
-					"request": {
-						"method": "POST",
-						"header": [],
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+								"type": "text"
+							}
+						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\": \"contractor@email.com\",\r\n    \"password\": \"pass\"\r\n}",
+							"raw": "{\r\n    \"customer_user_id\": \"90909090\",\r\n    \"changeOrderName\": \"change order test\",\r\n    \"customerName\": \"testuser999\",\r\n    \"description\": \"testing...\",\r\n    \"estimateName\": \"test estimate\",\r\n    \"projectAddress\": \"123 test project St\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2154,13 +3489,1019 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/auth/signin/:provider",
+							"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id/change-orders/:changeorder_id",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "3000",
 							"path": [
+								"api",
+								"users",
+								":user_id",
+								"customers",
+								":customer_id",
+								"estimates",
+								":estimate_id",
+								"change-orders",
+								":changeorder_id"
+							],
+							"variable": [
+								{
+									"key": "user_id",
+									"value": "12345678"
+								},
+								{
+									"key": "customer_id",
+									"value": "12348765"
+								},
+								{
+									"key": "estimate_id",
+									"value": "22222222"
+								},
+								{
+									"key": "changeorder_id",
+									"value": "11111111"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Server Error",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id/change-orders/:changeorder_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id",
+										"estimates",
+										":estimate_id",
+										"change-orders",
+										":changeorder_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "12348765"
+										},
+										{
+											"key": "estimate_id",
+											"value": "22222222"
+										},
+										{
+											"key": "changeorder_id",
+											"value": "11111111"
+										}
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "set-cookie",
+									"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..q2LWUVEpCLtneQQNIxJjgQ.sR4w-OpmjPOD-WAy7vn5TMatb8HwkaEi856BB4E10U_RW9LJZ-w7k2ZFd2QhApTxq8nUMRQvP698shyQzk6lkT6dLIz9rDhituCbXrTQeXyFrP7UXD0a8gDeJ2eDmb4T5CyXVYC4woR-MY1cHBsf_62psGLAyX7S9QgLHyVGqvGeVw1nRIDVhqnsQCGvNfdKqAnSZZFunQLczzgScKA8nhlGHCwcla4a-teBCyCYWqjLVO1_LL8YBLMV3ETKPyHVb7MbEMntp7BM0yaBS2MWig.7LI4lpmjEM6tXba1xdv9yIVT1akuY78EyhvI3Piyit8; Path=/; Expires=Sat, 20 Jul 2024 03:04:00 GMT; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 03:04:01 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"error\": \"Server Error\"\n}"
+						},
+						{
+							"name": "No Session",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id/change-orders/:changeorder_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id",
+										"estimates",
+										":estimate_id",
+										"change-orders",
+										":changeorder_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "12348765"
+										},
+										{
+											"key": "estimate_id",
+											"value": "22222222"
+										},
+										{
+											"key": "changeorder_id",
+											"value": "11111111"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 03:04:35 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"error\": \"No session\"\n}"
+						},
+						{
+							"name": "Create Change Order",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"customer_user_id\": \"90909090\",\r\n    \"changeOrderName\": \"change order test\",\r\n    \"customerName\": \"testuser999\",\r\n    \"description\": \"testing...\",\r\n    \"estimateName\": \"test estimate\",\r\n    \"projectAddress\": \"123 test project St\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id/change-orders/:changeorder_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id",
+										"estimates",
+										":estimate_id",
+										"change-orders",
+										":changeorder_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "12348765"
+										},
+										{
+											"key": "estimate_id",
+											"value": "22222222"
+										},
+										{
+											"key": "changeorder_id",
+											"value": "11111111"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "set-cookie",
+									"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..gj7zNuf2MvTOBGkMio4CnQ.LkBE48FCPwDCEx2oyju81oMAOn0QGNZYvxyYQuoTh-9WPwDT_ncm0E_ACC7JHP42u93Ih-QpVSemj_YmKe7XyG9TeGPtl3ur6KQiyXtidLQYoDFDUXgEko7Hxs72Ugn01FQZQVHgc6V1y0qa7cb0Fbf5Aqezh6Uh-_jCNhNE9thdQw_m13NjLfNKF-iQC0V9A7ivdHQEJzX41OR_tQkkDFKKE0wzlngPwhNv9aamKbRpLlkDmiACsT6cMLf9iZV68_ilqhx2RFldueR3_FutUg.r32lNbBslcAqTy0ZSz31rQr268uGK5msFqfrzfr-yVw; Path=/; Expires=Sat, 20 Jul 2024 03:09:40 GMT; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 03:09:40 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Change order successfully created\",\n    \"changeOrder\": {\n        \"id\": 11111111,\n        \"contractor_user_id\": 12345678,\n        \"customer_user_id\": \"90909090\",\n        \"estimate_id\": 22222222,\n        \"changeOrderName\": \"change order test\",\n        \"customerName\": \"testuser999\",\n        \"description\": \"testing...\",\n        \"estimateName\": \"test estimate\",\n        \"projectAddress\": \"123 test project St\",\n        \"status\": \"Pending Approval\",\n        \"createdAt\": \"2024-06-20T03:09:40.442Z\",\n        \"updatedAt\": \"2024-06-20T03:09:40.442Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Update Change Order",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customer_user_id\": \"90909090\",\r\n    \"changeOrderName\": \"change order test(updated)\",\r\n    \"customerName\": \"testuser999(updated)\",\r\n    \"description\": \"testing...(updated)\",\r\n    \"estimateName\": \"test estimate(updated)\",\r\n    \"projectAddress\": \"123 test project St(updated)\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id/change-orders/:changeorder_id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								":user_id",
+								"customers",
+								":customer_id",
+								"estimates",
+								":estimate_id",
+								"change-orders",
+								":changeorder_id"
+							],
+							"variable": [
+								{
+									"key": "user_id",
+									"value": "12345678"
+								},
+								{
+									"key": "customer_id",
+									"value": "12348765"
+								},
+								{
+									"key": "estimate_id",
+									"value": "22222222"
+								},
+								{
+									"key": "changeorder_id",
+									"value": "11111111"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Server Error",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"customer_user_id\": \"90909090\",\r\n    \"changeOrderName\": \"change order test(updated)\",\r\n    \"customerName\": \"testuser999(updated)\",\r\n    \"description\": \"testing...(updated)\",\r\n    \"estimateName\": \"test estimate(updated)\",\r\n    \"projectAddress\": \"123 test project St(updated)\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id/change-orders/:changeorder_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id",
+										"estimates",
+										":estimate_id",
+										"change-orders",
+										":changeorder_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "12348765"
+										},
+										{
+											"key": "estimate_id",
+											"value": "22222222"
+										},
+										{
+											"key": "changeorder_id",
+											"value": "11111111"
+										}
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "set-cookie",
+									"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..lKlwdyi2y_exYf0F1CoTYQ.nIq35FTFMb8eovKoZyr2aR7Q4SjbKV22VEbJPlyXFgh9u-7cLdRhCHGzPLDbzrS9AoG4RI8Y8ILSMLK3XmVyvmDi99fM1L4Ngj7vtOHtWohdG5D0umiCccNmA4ZWJb15w4z26TKwc2NOHL7FK_zcHBA_ijaFirjkcfQ9qytwNG8RUoAwIlygsRDCatBKwBd2bYgeOrR53O0DxIe9ele2wTo42QRtlXEQSQXv_a-hc3zXYjdbo5sADNSD8LsA8yrzEpHXOxKuZCYaLNe3FtB04w.C3mHXsNHGtCvuEDSb8KNFKpKDL1Gu8a27wLimkNim4M; Path=/; Expires=Sat, 20 Jul 2024 03:12:11 GMT; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 03:12:12 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"error\": \"Server Error\"\n}"
+						},
+						{
+							"name": "No Session",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"customer_user_id\": \"90909090\",\r\n    \"changeOrderName\": \"change order test(updated)\",\r\n    \"customerName\": \"testuser999(updated)\",\r\n    \"description\": \"testing...(updated)\",\r\n    \"estimateName\": \"test estimate(updated)\",\r\n    \"projectAddress\": \"123 test project St(updated)\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id/change-orders/:changeorder_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id",
+										"estimates",
+										":estimate_id",
+										"change-orders",
+										":changeorder_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "12348765"
+										},
+										{
+											"key": "estimate_id",
+											"value": "22222222"
+										},
+										{
+											"key": "changeorder_id",
+											"value": "11111111"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 03:12:37 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"error\": \"No session\"\n}"
+						},
+						{
+							"name": "Update Change Order",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"customer_user_id\": \"90909090\",\r\n    \"changeOrderName\": \"change order test(updated)\",\r\n    \"customerName\": \"testuser999(updated)\",\r\n    \"description\": \"testing...(updated)\",\r\n    \"estimateName\": \"test estimate(updated)\",\r\n    \"projectAddress\": \"123 test project St(updated)\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id/change-orders/:changeorder_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id",
+										"estimates",
+										":estimate_id",
+										"change-orders",
+										":changeorder_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "12348765"
+										},
+										{
+											"key": "estimate_id",
+											"value": "22222222"
+										},
+										{
+											"key": "changeorder_id",
+											"value": "11111111"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "set-cookie",
+									"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..W00lJedNsTFLrlY_c72q8A.RPcVCV4B4zoGs3k-HD7bTXbQbTlFB6NkJrInHgc222yyTL8CrQQKOtagRtqLzUBrQFtoTiv5TF4YtLtcRL47xTwHEVkfC9o5dq-WMlHcUs1-_CGliMiT-whgfbf0w50I-F3NFPvJ-oKgaunMDAid3QSmSHlCGM5yLRibMUC50ouJHYdfzUCs_FCFX9DsYNuaMLgVAOQVlrWRV3gA46NUpUdqBoqZp-ngjAaX0o915F5E1hYnrv7KtiGwxnh6OS3jkd_Sd9BYyWmvIkengpuAwQ.dYoWwGFtF_lmBFJfXWxzGbsRZ5vdNWfoZ19XRhCkaGU; Path=/; Expires=Sat, 20 Jul 2024 03:14:18 GMT; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 03:14:19 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Change order successfully updated\",\n    \"changeOrder\": {\n        \"changeOrderName\": \"change order test(updated)\",\n        \"description\": \"testing...(updated)\",\n        \"updatedAt\": \"2024-06-20T03:14:19.046Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Delete Change Order",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id/change-orders/:changeorder_id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"users",
+								":user_id",
+								"customers",
+								":customer_id",
+								"estimates",
+								":estimate_id",
+								"change-orders",
+								":changeorder_id"
+							],
+							"variable": [
+								{
+									"key": "user_id",
+									"value": ""
+								},
+								{
+									"key": "customer_id",
+									"value": ""
+								},
+								{
+									"key": "estimate_id",
+									"value": ""
+								},
+								{
+									"key": "changeorder_id",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Server Error",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id/change-orders/:changeorder_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id",
+										"estimates",
+										":estimate_id",
+										"change-orders",
+										":changeorder_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "12348765"
+										},
+										{
+											"key": "estimate_id",
+											"value": "22222222"
+										},
+										{
+											"key": "changeorder_id",
+											"value": "11111111"
+										}
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "set-cookie",
+									"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..qMysH2ZTZy6_v59IXe6zig.S_EFFHpaKiW24NDMIGHX3BIIkkRTnS2kggMenhZQTjcJnZSr11FPzO-sW7VeZfdx4ZYB2ZURX7mWEpVE4lq5NpRxDcEFD_QY0ncfPuhn5iHL13bSob4gb7_8Jrebz0ZbTXz4eCdN1yNC9GYVDUEczyE5lq06legE8uVW88E4uC9JDHF0BTEQtx_Zesi1GDfL9dyZNkWIXFy9SuEJkP1rNG2JVXjDOKfs7skBf8F1uHa0YoBU-yOzvn9QUQBxBTlcUs6PMref-UX0hpd6QM262Q.e_ilMOPNKaGBvY-yWH76VTyfWxdqPlz9T-uGmY0h_YY; Path=/; Expires=Sat, 20 Jul 2024 03:16:25 GMT; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 03:16:25 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"error\": \"Server Error\"\n}"
+						},
+						{
+							"name": "No Session",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id/change-orders/:changeorder_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id",
+										"estimates",
+										":estimate_id",
+										"change-orders",
+										":changeorder_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "12348765"
+										},
+										{
+											"key": "estimate_id",
+											"value": "22222222"
+										},
+										{
+											"key": "changeorder_id",
+											"value": "11111111"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 03:16:51 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"error\": \"No session\"\n}"
+						},
+						{
+							"name": "Delete Change Order",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..wIfM9HB1TMyYOVFtlfjk7w.eIiHFOE-m6KBTcWXdICdusbcld8VlFyikNoBs8TLAMaWKRYrkgMD21pLlFd4OPOSc4lo4CvGoTbvmB7mm41zj8lAbZiQeWtaD56Ru1H3TLgalSomIqsFVSed6C77T0GP5oX0Me8aLsRmbdI-AgRG-nqZV3izMyiIAbP3qE6Hx1gLb2Pud2IYfPPj98FGtVfN00SbPGXk9Iq7OGk5_JJLT6QnlTH7W19MQ5-1vclouVsbIXS1TH7iZUAuRplENu71ImX09rPCPZ4XQbjkD0Lvgw.Uttpe5ra5QLgLYIup_tq6zKF9KXnDs05XwWOmNQMoqY",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:3000/api/users/:user_id/customers/:customer_id/estimates/:estimate_id/change-orders/:changeorder_id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"users",
+										":user_id",
+										"customers",
+										":customer_id",
+										"estimates",
+										":estimate_id",
+										"change-orders",
+										":changeorder_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "12345678"
+										},
+										{
+											"key": "customer_id",
+											"value": "12348765"
+										},
+										{
+											"key": "estimate_id",
+											"value": "22222222"
+										},
+										{
+											"key": "changeorder_id",
+											"value": "11111111"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "set-cookie",
+									"value": "authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiQkVBc21LZzRYUnZUUFNHQlMwbUxNelY3ZE9MelIzNEpmc3ZRQlJEWTVlZFJMYko0bmlhZVVaNHdjOWdfRDB4NndXVkM2ano0YkkyVWRmNzhhNnpuTkEifQ..oqoQvCCPPQCp0DMjua6qDQ.7w63EOXDO7NgI_Qa9ZKbsMibyrWwLOnWjwlH29-fBuS9dOWt19GTLrzCO5dgExPyJpYZSXz_JXZiCm4syQdjfFZG1-XY5ZNVISMuZjJCCVxOEzqmpfUBSJBKJAGdoeEvL-yjlokfYsS_YpEiclBoQhzH9jse3wysTLr--Q9Ino6lO3LG-d2FfwDeikWdXosCe9sD7w2anB9RI2vBcgWJeDS50Jv9j4e5XC_TICEeQQeoBGkXyIrdsnTGkvu3t7L0p6Ir4ThL8h_B8njWaQA95w.0rYgD17spLmVV0BJX5wX4pqg7Z7svW2EJYEuIGnicg8; Path=/; Expires=Sat, 20 Jul 2024 03:18:15 GMT; HttpOnly; SameSite=Lax"
+								},
+								{
+									"key": "vary",
+									"value": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 20 Jun 2024 03:18:15 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Change order 11111111 successfully deleted\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Sign In",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/auth/signin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"auth",
+								"signin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Sign In",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "authjs.csrf-token=a335b9af445c65fc6bbd27c73b45443fa315128b571b4e7fc9a9d4a0a3e78fdd%7C0d69f82766e251332e9929c4837f8501469e8fdebce699d9f342e9e3a501ab39",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"postmanuser@email.com\",\r\n    \"password\": \"pass\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000//api/auth/signin/:provider",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"",
 								"api",
 								"auth",
 								"signin",
@@ -2171,6 +4512,27 @@
 									"key": "provider",
 									"value": "credentials"
 								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Sign Out",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/auth/signout",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"auth",
+								"signout"
 							]
 						}
 					},
@@ -2259,6 +4621,62 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Callback",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/auth/callback/:provider",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"auth",
+								"callback",
+								":provider"
+							],
+							"variable": [
+								{
+									"key": "provider",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Callback",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/auth/callback/:provider",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"auth",
+								"callback",
+								":provider"
+							],
+							"variable": [
+								{
+									"key": "provider",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},
@@ -2329,26 +4747,6 @@
 					"item": []
 				}
 			]
-		},
-		{
-			"name": "Redirect",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://localhost:3000/api/redirect",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"api",
-						"redirect"
-					]
-				}
-			},
-			"response": []
 		}
 	]
 }

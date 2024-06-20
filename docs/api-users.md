@@ -5,7 +5,7 @@
 ### Method: POST
 
 > ```
-> http://localhost:3000/api/users/:id
+> http://localhost:3000/api/users/:user_id
 > ```
 
 ### Headers
@@ -19,7 +19,7 @@
 ```json
 {
   "name": "postmanuser",
-  "email": "postmanuser@email.com",
+  "email": "postmanuser@gmail.com",
   "password": "pass",
   "role": "contractor"
 }
@@ -80,7 +80,7 @@
 ### Method: PATCH
 
 > ```
-> http://localhost:3000/api/users/:id
+> http://localhost:3000/api/users/:user_id
 > ```
 
 ### Headers
@@ -151,7 +151,7 @@
 ### Method: DELETE
 
 > ```
-> http://localhost:3000/api/users/:id
+> http://localhost:3000/api/users/:user_id
 > ```
 
 ### Headers

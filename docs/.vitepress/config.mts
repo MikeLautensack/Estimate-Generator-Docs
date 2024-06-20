@@ -10,7 +10,6 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Examples", link: "/markdown-examples" },
     ],
-
     sidebar: [
       {
         text: "Introduction",
@@ -29,9 +28,11 @@ export default defineConfig({
       {
         text: "API",
         items: [
-          { text: "API Overview", link: "/api-overview" },
           { text: "Profiles", link: "/api-profiles" },
           { text: "Users", link: "/api-users" },
+          { text: "Customers", link: "/api-customers" },
+          { text: "Estimates", link: "/api-estimates" },
+          { text: "Change Orders", link: "/api-change-orders" },
         ],
       },
     ],
