@@ -11,6 +11,7 @@ export default defineConfig({
       {
         text: "API",
         items: [
+          { text: "API Overview", link: "/api-overview" },
           { text: "Profiles", link: "/api-profiles" },
           { text: "Users", link: "/api-users" },
           { text: "Customers", link: "/api-customers" },
